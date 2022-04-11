@@ -1,11 +1,23 @@
 #back {
-  background-color: bisque;
+  background-color: rgb(247, 231, 202);
 }
 
 .large {
   font-size: large;
 }
+
+#right {
+  float: right;
+  padding: 5px;
+}
+
 .center {
+  font-family: 'Dancing Script';
+  font-size: 35px;
+  width: 100%;
+	height: 100%;
+	color: black;
+	text-shadow: 1px 1px 1px #333;
   text-align: center;
 }
 
@@ -21,17 +33,6 @@
    text-indent: 10px;
 }
 
-#first {
-  font-family: 'Dancing Script';
-  font-size: 60px;
-  width: 100%;
-	height: 100%;
-	padding: 50px;
-	color: black;
-	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #4b0ed969 10%, #fd5e086b 100%);
-}
-
 #list {
   display: inline-block;
 }
@@ -42,4 +43,11 @@
 
 #margin {
   margin: 10px 10px 10px 10px;
+}
+
+#header {
+  background-image: url(Boulder.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
 }
