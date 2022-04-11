@@ -1,3 +1,7 @@
+#back {
+  background-color: bisque;
+}
+
 .large {
   font-size: large;
 }
@@ -30,4 +34,12 @@
 
 #list {
   display: inline-block;
+}
+
+#padding {
+  margin: 1% 0;
+}
+
+#margin {
+  margin: 10px 10px 10px 10px;
 }
